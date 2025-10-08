@@ -1,12 +1,11 @@
 ---
 from IPython.display import Image, display
-
 display(Image(filename="Screenshot 2025-10-07 173012 "))
 ---
 
 Welcome,
 
-Enigma Excursions Travel service and customer transactions. Analysis project.
+ to the Enigma Excursions Travel service and customer transactions, Analysis project.
 
 The project is a Analysis of my clients travel service and customer transactions data to discover meaningful patterns, trends and insights.  my dataset has some interesting attributes based and around travel services provided and customer transactions, TicketPrice, ReturnTrip, TripType, Age, Gender, TravelTime, and Region.
 
