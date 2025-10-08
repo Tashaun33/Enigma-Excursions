@@ -5,9 +5,10 @@ display(Image(filename="Screenshot 2025-10-07 173012 "))
 
 Welcome,
 
- to the Enigma Excursions Travel service and customer transactions, Analysis project.
+to the Enigma Excursions Travel service and customer transactions, Analysis project.
 
-The project is a Analysis of my clients travel service and customer transactions data to discover meaningful patterns, trends and insights.  my dataset has some interesting attributes based and around travel services provided and customer transactions, TicketPrice, ReturnTrip, TripType, Age, Gender, TravelTime, and Region.
+The project is an analysis of data for business purpose from my client as a travel services operator and their valued customer transactions, in data form to discover meaningful patterns, trends and insights. My data anlysist skill has been called upon and has discovered that, this dataset has some interesting attributes, based  on and around travel services, provided and the customer transactions, such as TicketPrice, ReturnTrip, TripType, Age, Gender, TravelTime, and Region. It may be that future business client's or customers will find this helpful and naturally make Enigma Excursions it's first stop to call for travel logistics and quality.
+
 
 # **Dataset content**
 The dataset used were my ideas brought to life online with guidance from a Gen A.I. tool. For a realtime effect and realistic authentication.
