@@ -1,7 +1,7 @@
----
-from IPython.display import Image, display
-display(Image(filename="Screenshot 2025-10-07 173012 "))
----
+                ![alt text](<jupyter_notebooks/Visualisations/Screenshot 2025-10-07 173012.jpg>)        
+
+
+
 
 Welcome,
 
