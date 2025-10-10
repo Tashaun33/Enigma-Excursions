@@ -1,4 +1,3 @@
-<<<<<<< HEAD:README.md
 Welcome,
 
 to the Enigma Excursions Travel service and customer transactions, Analysis project.
@@ -25,10 +24,9 @@ The dataset contains the following columns:
 
 
 
-I will conduct the project according to features such as beginning, middle the end with conclusion.
+I will conduct the project according to features such as beginning, middle and the end with conclusion.
 
-
-for introduction, methodology, analysis, and conclusions
+something like for introduction, methodology, analysis, and conclusions
 
 
 I found Excel helpful while i was planning my hypothesis, in that my data type (data type()) it had objects not just floats or intergers and for 1 hypothesis iIoptimised the data to get a clearer result in the Linear regression model. So in the column named Travel time instead of Am or Pm I replaced those with 0 for Am and 1 for Pm and that made a difference. It was from there I tweeked around a bit more and got a positve linear regression line, and the proof was clear to see.
@@ -47,22 +45,21 @@ As a quality check. including checks for consistency between fields   e.g Return
 1.	Price Sensitivity Hypothesis
 o	H₀: There is no difference in average ticket price across regions.
 o	H₁: Average ticket price differs significantly across regions.
-in progress
 
 2.	Age and Ticket price Hypothesis
 o	H₀: Age has no effect on ticket price.
 o	H₁: Age influences ticket price.
-in progress
+  
 
 3.	Gender and Spending Hypothesis
 o	H₀: Average ticket price does not differ by gender.
 o	H₁: Average ticket price differs significantly by gender.
-in progress
+  
 
 4.	Travel Time and Ticket Price Relationship
 o	H₀: There is no relationship between travel time and ticket price.
 o	H₁: Ticket price increases with travel time.
-in progress
+
 
 
 ---
@@ -74,6 +71,8 @@ I will use python libaries like, pandas, numpy and matplotlib to add depth and v
 I will use Gen A.I. in the design phase of my project and refer back to it during my projects development.
 
 I have encounter errors, and mistakes along the way, thus far and have found reasonable solutions to issues rather than giving up an original idea.
+
+
 ---
 
 
@@ -106,7 +105,7 @@ During cleaning, summary statistics and visual inspections (e.g., boxplots for T
 After cleaning, the data was stored and managed as follows:
 
 Storage Format:
-The dataset was saved in both .csv and .parquet formats for compatibility and efficiency.
+The dataset was saved in .csv formats for compatibility and efficiency.
 
 Version Control:
 Different versions of the dataset (raw, cleaned, and preprocessed) were stored separately to maintain a transparent data lineage.
@@ -126,5 +125,6 @@ Data documentation: Metadata (column descriptions, data sources, units) was main
 
 Reproducibility: All cleaning and transformation steps were scripted in Python using Pandas.
 
-Quality checks: Each stage (collection, cleaning, storage) included validation steps — such as checking value ranges, unique IDs, and consistency between fields (e.g., ReturnTrip vs. TripType).
+Quality checks: Each stage (collection, cleaning, storage) included validation steps — such as checking value ranges, unique IDs, and consistency between fields.
 =======
+
