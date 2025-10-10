@@ -1,8 +1,3 @@
-                ![alt text](<jupyter_notebooks/Visualisations/Screenshot 2025-10-07 173012.jpg>)        
-
-
-
-
 Welcome,
 
 to the Enigma Excursions Travel service and customer transactions, Analysis project.
@@ -29,6 +24,10 @@ The dataset contains the following columns:
 
 
 
+I will conduct the project according to features such as beginning, middle the end with conclusion.
+
+
+
 
 
 
@@ -47,21 +46,37 @@ The dataset contains the following columns:
 1.	Price Sensitivity Hypothesis
 o	H₀: There is no difference in average ticket price across regions.
 o	H₁: Average ticket price differs significantly across regions.
-2.	Age and Trip Type Hypothesis
-o	H₀: Age has no effect on trip type preference (one-way vs. return).
-o	H₁: Age influences trip type preference.
+in progress
+
+2.	Age and Ticket price Hypothesis
+o	H₀: Age has no effect on ticket price.
+o	H₁: Age influences ticket price.
+in progress
+
 3.	Gender and Spending Hypothesis
 o	H₀: Average ticket price does not differ by gender.
 o	H₁: Average ticket price differs significantly by gender.
+in progress
+
 4.	Travel Time and Ticket Price Relationship
 o	H₀: There is no relationship between travel time and ticket price.
 o	H₁: Ticket price increases with travel time.
-5.	Triptype and Return Trip Hypothesis
-o	H₀: Triptype is independent of return trip selection.
-o	H₁: Triptype and return trip selection are dependent (e.g., leisure travelers more likely to book returns).
-6.	Regional Demographics Hypothesis
-o	H₀: The age distribution of travelers is the same across all regions.
-o	H₁: The age distribution of travelers varies by region.
+in progress
+
+
+---
+
+I will use python as the programme written code,
+
+I will use python libaries like, pandas, numpy and matplotlib to add depth and visualation in to Insights and findings of my project work.
+
+I will use Gen A.I. in the design phase of my project and refer back to it during my projects development.
+
+I have encounter errors, and mistakes along the way, thus far and have found reasonable solutions to issues rather than giving up an original idea.
+---
+
+
+
 
 ---
 # **Data management section**
