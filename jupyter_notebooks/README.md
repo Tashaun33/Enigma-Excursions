@@ -1,8 +1,3 @@
-                ![alt text](<jupyter_notebooks/Visualisations/Screenshot 2025-10-07 173012.jpg>)        
-
-
-
-
 Welcome,
 
 to the Enigma Excursions Travel service and customer transactions, Analysis project.
@@ -56,12 +51,7 @@ o	H₁: Average ticket price differs significantly by gender.
 4.	Travel Time and Ticket Price Relationship
 o	H₀: There is no relationship between travel time and ticket price.
 o	H₁: Ticket price increases with travel time.
-5.	Triptype and Return Trip Hypothesis
-o	H₀: Triptype is independent of return trip selection.
-o	H₁: Triptype and return trip selection are dependent (e.g., leisure travelers more likely to book returns).
-6.	Regional Demographics Hypothesis
-o	H₀: The age distribution of travelers is the same across all regions.
-o	H₁: The age distribution of travelers varies by region.
+
 
 ---
 # **Data management section**
