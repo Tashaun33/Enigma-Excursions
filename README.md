@@ -1,4 +1,3 @@
-<<<<<<< HEAD:README.md
 Welcome,
 
 to the Enigma Excursions Travel service and customer transactions, Analysis project.
@@ -25,10 +24,8 @@ The dataset contains the following columns:
 
 
 
-I will conduct the project according to features such as beginning, middle the end with conclusion.
-
-
-for introduction, methodology, analysis, and conclusions
+I will conduct the project according to features such as beginning, middle and the end, with conclusion.
+ something like an introduction, methodology, analysis, and conclusions format.
 
 
 I found Excel helpful while i was planning my hypothesis, in that my data type (data type()) it had objects not just floats or intergers and for 1 hypothesis iIoptimised the data to get a clearer result in the Linear regression model. So in the column named Travel time instead of Am or Pm I replaced those with 0 for Am and 1 for Pm and that made a difference. It was from there I tweeked around a bit more and got a positve linear regression line, and the proof was clear to see.
@@ -127,4 +124,5 @@ Data documentation: Metadata (column descriptions, data sources, units) was main
 Reproducibility: All cleaning and transformation steps were scripted in Python using Pandas.
 
 Quality checks: Each stage (collection, cleaning, storage) included validation steps — such as checking value ranges, unique IDs, and consistency between fields (e.g., ReturnTrip vs. TripType).
-=======
+=====
+
