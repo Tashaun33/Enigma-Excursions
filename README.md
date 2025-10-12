@@ -262,13 +262,13 @@ Version Control (Git/GitHub)	Track project evolution	Create branches for feature
 
 # Feedback & Iteration.
 
-I received feedback from peers and my instructor emphasizing:
+I received feedback from my instructor emphasizing:
 
-The importance of clear labeling in visualizations
+The importance of creating and maintaining a Kandam board.
 
-Making insights actionable by connecting results to real-world scenarios (e.g., how travel companies might adjust pricing strategies)
+Making it in the first phases of design and Ideation shaped and helped focused my efforts. e.g no more than 35 items, upto 35 would be enough although the final say would be upto me.
 
-In response, I revised my charts to include descriptive titles, improved my narrative explanations, and documented each analytical step more clearly.
+In response, I revised my kandam board items to include descriptive titles, short to the point narrative explanations, and documented each analytical step more clearly.
 
 # Key Takeaways.
 
@@ -277,3 +277,10 @@ I strengthened my ability to perform structured data analysis.
 I learned how to debug data transformation issues systematically.
 
 I gained appreciation for documentation and iterative improvement.
+
+
+# Credits.
+
+I have to give a big cheer of appreciation to Gen A.I. especially Chat gpt for help, support and reference
+to help make this project more than a dream but a reality.
+Thankyou Chat gpt.
