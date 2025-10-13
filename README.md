@@ -120,7 +120,7 @@ NumPy:	Numerical computation:	Used for normalizing TicketPrice and calculating m
 
 I began with Matplotlib due to familiarity and control.
 
- Experimentation with Tools and Methodologies
+ Experimentation with Tools and Methodologies.
 Experiment 1: Comparing Matplotlib vs Power BI
 
 I explored how each library represented price distributions by trip type:
@@ -143,7 +143,7 @@ Result:
 Matplotlib provided a clean static visualization, ideal for reports. However, it required additional effort to format labels and legends manually.
 
 
- Experiment 2: Feature Grouping and Aggregation
+ Experiment 2: Feature Grouping and Aggregation.
 
 I experimented with summarizing travel patterns by Region and Gender to identify differences in travel time and price.
 
@@ -159,7 +159,7 @@ This aggregation revealed that certain regions had higher average prices for ret
 ====
 
 
-# Version Control and Progressive Refinement
+# Version Control and Progressive Refinement.
 
 I used Git to track each stage of development. Key commits demonstrated progressive experimentation:
 
@@ -220,7 +220,7 @@ By refining data workflows with Pandas, I built a more robust, exploratory, and 
 
 ======
 
-# Travel Data Insights Project
+# Travel Data Insights Project.
 Overview
 
 This project analyzes travel data containing the following columns:
@@ -233,7 +233,7 @@ The goal is to uncover insights into how demographic factors (such as Age and Ge
 This dataset explores how various factors — such as TripType, Region, Gender, and Age — influence key travel outcomes like TicketPrice and TravelTime.
 The analysis focused on identifying relationships between traveler demographics, trip characteristics, and price behaviors.
 
-# Reflection on Progress
+# Reflection on Progress.
 
 Throughout this project, I gained a stronger understanding of data cleaning, visualization, and interpretation. Initially, I approached the dataset by exploring correlations and distributions across numerical and categorical variables.
 
