@@ -52,6 +52,12 @@ o	H₁: Ticket price increases with travel time.
 in progress
 
 ---
+
+# Installing
+
+Clone the repository and navigate to the project directory:
+
+
 ====
 
  **Data management section**
@@ -104,8 +110,9 @@ Quality checks: Each stage (collection, cleaning, storage) included validation s
 =====
 
 
-Tools, Experiments, and Methodology Reflection
-Tool Selection Rationale
+Tools, Experiments, and Methodology Reflection.
+
+Tool Selection Rationale.
 
 To analyze my travel dataset — which includes variables like TicketPrice, ReturnTrip, TripType, Age, Gender, TravelTime, and Region — I relied primarily on Python within a Jupyter Notebook environment. My goal was to maintain an interactive, experiment-friendly workspace that supported both exploratory analysis and visual storytelling.
 
@@ -242,6 +249,7 @@ One major milestone was identifying how TripType (e.g., business vs leisure) and
 ====
 
 
+
 # Challenges and Strategies to Overcome Them.
 
 1. Data Cleaning and Inconsistent Entries.
@@ -329,6 +337,8 @@ The importance of creating and maintaining a Kandam board.
 Making it in the first phases of design and Ideation shaped and helped focused my efforts. e.g no more than 35 items, upto 35 would be enough although the final say would be upto me.
 
 In response, I revised my kandam board items to include descriptive titles, short to the point narrative explanations, and documented each analytical step more clearly.
+
+
 ====
 
 
