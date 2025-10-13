@@ -52,6 +52,12 @@ o	H₁: Ticket price increases with travel time.
 in progress
 
 ---
+
+# Installing
+
+Clone the repository and navigate to the project directory:
+
+
 ====
 
  **Data management section**
@@ -241,11 +247,6 @@ Throughout this project, I gained a stronger understanding of data cleaning, vis
 One major milestone was identifying how TripType (e.g., business vs leisure) and Region impacted TicketPrice, as well as understanding how Age influenced travel duration patterns. I progressively improved my analytical workflow — from manually inspecting CSV files to using automated scripts for exploratory data analysis (EDA).
 
 ====
-
-
-# Installing
-
-Clone the repository and navigate to the project directory:
 
 
 
