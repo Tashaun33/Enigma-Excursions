@@ -243,6 +243,12 @@ One major milestone was identifying how TripType (e.g., business vs leisure) and
 ====
 
 
+# Installing
+
+Clone the repository and navigate to the project directory:
+
+
+
 # Challenges and Strategies to Overcome Them.
 
 1. Data Cleaning and Inconsistent Entries.
