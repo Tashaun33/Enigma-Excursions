@@ -21,9 +21,9 @@ The dataset contains the following columns:
 * Age
 
 ---
+====
 
-I will conduct the project according to features such as beginning, middle and the end, with conclusion.
- something like an introduction, methodology, analysis, and conclusions format.
+When you read the project you will be invited according to features such as beginning, middle and the end, with conclusion, and discover something like an introduction, methodology, analysis, and conclusions format.
 
 I found Excel helpful while i was planning my hypothesis, in that my data type (data type()) it had objects not just floats or intergers and for 1 hypothesis iIoptimised the data to get a clearer result in the Linear regression model. So in the column named Travel time instead of Am or Pm I replaced those with 0 for Am and 1 for Pm and that made a difference. It was from there I tweeked around a bit more and got a positve linear regression line, and the proof was clear to see.
 
@@ -52,6 +52,7 @@ o	H₁: Ticket price increases with travel time.
 in progress
 
 ---
+====
 
  **Data management section**
 
@@ -108,16 +109,19 @@ Tool Selection Rationale
 
 To analyze my travel dataset — which includes variables like TicketPrice, ReturnTrip, TripType, Age, Gender, TravelTime, and Region — I relied primarily on Python within a Jupyter Notebook environment. My goal was to maintain an interactive, experiment-friendly workspace that supported both exploratory analysis and visual storytelling.
 
-Tool / Library	Purpose	Reason for Choice
-Pandas	Data cleaning, transformation, and aggregation	Provides flexible handling of mixed-type data (categorical + numeric) and fast filtering/grouping
-Matplotlib	Foundational plotting	Simple, customizable visualizations ideal for quick exploratory plots.
-NumPy	Numerical computation	Used for normalizing TicketPrice and calculating mean/median efficiently
+Tool / Library	Purpose	Reason for Choice:
+
+Pandas:	Data cleaning, transformation, and aggregation:	Provides flexible handling of mixed-type data (categorical + numeric) and fast filtering/grouping.
+
+Matplotlib:	Foundational plotting:	Simple, customizable visualizations ideal for quick exploratory plots.
+
+NumPy:	Numerical computation:	Used for normalizing TicketPrice and calculating mean/median efficiently.
 
 
 I began with Matplotlib due to familiarity and control.
 
  Experimentation with Tools and Methodologies
-Experiment 1: Comparing Matplotlib vs Plotly
+Experiment 1: Comparing Matplotlib vs Power BI
 
 I explored how each library represented price distributions by trip type:
 
@@ -152,6 +156,9 @@ region_summary = df.groupby(['Region', 'Gender']).agg({
 Insight:
 This aggregation revealed that certain regions had higher average prices for return trips, and male travelers tended to book slightly longer travel durations on average.
 
+====
+
+
 # Version Control and Progressive Refinement
 
 I used Git to track each stage of development. Key commits demonstrated progressive experimentation:
@@ -168,19 +175,47 @@ final notebook polish.
 Annotated code cells and summarized insights.
 
 Each commit represented a meaningful iteration — either improving analysis depth, visual clarity, or reproducibility.
+====
 
 # Challenges and Solutions.
 
-Challenge	Description	Solution	Skill Gained
-Inconsistent categorical data	Variations in region naming (e.g., “north-east”, “North East”)	Used .str.lower().str.strip() and mapping dictionaries	Data cleaning and preprocessing
-Choosing the right visual tool	Static vs interactive trade-off	Tested Matplotlib, Seaborn, and Plotly to find balance between clarity and usability	Comparative evaluation
-Large dataset rendering issues	Plotly slow on large files	Sampled or aggregated data to reduce rendering time	Data optimization
-Version control discipline	Tracking multiple small changes	Committed after each meaningful experiment and added descriptive messages	Incremental documentation and traceability
+Challenge.
+
+Description	Solution.
+
+Skill Gained.
+
+Inconsistent categorical data.
+Variations in region naming (e.g., “north-east”, “North East”).
+
+Used .str.lower().str.strip() and mapping dictionaries.
+
+Data cleaning and preprocessing.
+
+Choosing the right visual tool.	
+
+Static vs interactive trade-off	Tested Matplotlib, Seaborn, and Power BI to find balance between clarity and usability.
+
+Comparative evaluation.
+
+Large dataset rendering issues.
+
+Plotly slow on large files.
+
+Sampled or aggregated data to reduce rendering time	Data optimization.
+
+Version control discipline.	
+
+Tracking multiple small changes	Committed after each meaningful experiment and added descriptive messages.	
+
+Incremental documentation and traceability.
 
 Meaningful Application.
 
 This iterative experimentation demonstrated how tool choice directly influences insight quality.
+
 Using multiple visualization libraries enriched my analysis and taught me how to balance efficiency, aesthetics, and interactivity.
+
 By refining data workflows with Pandas, I built a more robust, exploratory, and reproducible analytical pipeline.
 
 ======
@@ -193,11 +228,19 @@ TicketPrice, ReturnTrip, TripType, Age, Gender, TravelTime, and Region.
 
 The goal is to uncover insights into how demographic factors (such as Age and Gender) and trip attributes (TripType, ReturnTrip, Region) influence TicketPrice and TravelTime.
 
+# Reflection: Choices, Limitations, and Alternatives.
+ 
+This dataset explores how various factors — such as TripType, Region, Gender, and Age — influence key travel outcomes like TicketPrice and TravelTime.
+The analysis focused on identifying relationships between traveler demographics, trip characteristics, and price behaviors.
+
 # Reflection on Progress
 
 Throughout this project, I gained a stronger understanding of data cleaning, visualization, and interpretation. Initially, I approached the dataset by exploring correlations and distributions across numerical and categorical variables.
 
 One major milestone was identifying how TripType (e.g., business vs leisure) and Region impacted TicketPrice, as well as understanding how Age influenced travel duration patterns. I progressively improved my analytical workflow — from manually inspecting CSV files to using automated scripts for exploratory data analysis (EDA).
+
+====
+
 
 # Challenges and Strategies to Overcome Them.
 
@@ -227,8 +270,11 @@ Adaptation: I learned to apply .astype() conversions and conditional logic to se
 
 Learning Moment: This helped me recognize the importance of data type awareness and robust validation steps before analysis.
 
-Bug Tracking & Learning Log
-Issue	Description	Adaptation / Fix What I Learned.
+Bug Tracking & Learning Log Issue.	
+
+Description	Adaptation / Fix What I Learned.
+
+====
 
 # Data type mismatch.
 	
@@ -250,15 +296,29 @@ Incorrect aggregation.
 
 Added .reset_index() after groupby	Proper indexing avoids hidden logic errors.
 
+====
+
 # Development Roadmap.
 
 Based on this project experience, here are the next steps for my growth:
 
-Skill/Tool	Purpose	Learning Plan
-SQL for Data Analysis	Query and join travel datasets efficiently	Take an online SQL course and practice on public travel data
-Machine Learning (Regression Models)	Predict ticket prices using multiple variables	Learn Scikit-learn basics and experiment with linear regression
-Data Visualization (Seaborn / Power BI)	Improve storytelling with data	Build dashboards and interactive plots
-Version Control (Git/GitHub)	Track project evolution	Create branches for feature updates and bug fixes
+Skill/Tool	Purpose	Learning Plan.
+
+SQL for Data Analysis,	Query and join travel datasets efficiently,	Take an online SQL course and practice on public travel data.
+
+Machine Learning (Regression Models).	Predict ticket prices using multiple variables.
+
+Learn Scikit-learn basics and experiment with linear regression.
+
+Data Visualization (Seaborn / Power BI)	Improve storytelling with data.
+
+Build dashboards and interactive plots.
+
+Version Control (Git/GitHub).
+
+Track project evolution	Create branches for feature updates and bug fixes.
+
+====
 
 # Feedback & Iteration.
 
@@ -269,6 +329,8 @@ The importance of creating and maintaining a Kandam board.
 Making it in the first phases of design and Ideation shaped and helped focused my efforts. e.g no more than 35 items, upto 35 would be enough although the final say would be upto me.
 
 In response, I revised my kandam board items to include descriptive titles, short to the point narrative explanations, and documented each analytical step more clearly.
+====
+
 
 # Key Takeaways.
 
@@ -278,9 +340,13 @@ I learned how to debug data transformation issues systematically.
 
 I gained appreciation for documentation and iterative improvement.
 
+====
 
 # Credits.
 
 I have to give a big cheer of appreciation to Gen A.I. especially Chat gpt for help, support and reference
 to help make this project more than a dream but a reality.
 Thankyou Chat gpt.
+
+# Take and Enjoy
+====
