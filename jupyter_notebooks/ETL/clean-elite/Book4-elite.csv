@@ -1,4 +1,5 @@
-﻿21.4,Yes,Full,24,Male,AM,Europe
+﻿TicketPrice,ReturnTrip,TripType,Age,Gender,TravelTime,Region
+21.4,Yes,Full,24,Male,AM,Europe
 106.6,Yes,Full,49,Female,AM,International
 103.49,Yes,Full,27,Male,PM,Europe
 21.04,Yes,Full,53,Female,PM,Europe
